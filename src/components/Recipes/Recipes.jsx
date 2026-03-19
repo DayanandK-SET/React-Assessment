@@ -27,7 +27,7 @@ export default function Recipes() {
 
   return (
     <div className="container">
-      <h1>🍲 Recipe Explorer</h1>
+      <h1>🍲 Recipes</h1>
 
       {loading && <p className="loading">Loading recipes...</p>}
       {error && <p className="error">{error}</p>}
